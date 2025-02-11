@@ -1,6 +1,7 @@
 #include "solution.hpp"
 
-#include <iostream>
+#include <fstream>
+#include <string>
 
 Student ReadStudentRecFromStream(std::istream& is) {
   std::string first_name;
